@@ -2,6 +2,7 @@
 """Minimum operations
 """
 
+
 def minOperations(n):
     """Calculate the minimum number of operations required
     to achieve exactly n 'H' characters.
@@ -24,4 +25,3 @@ def minOperations(n):
             done += clipboard
             operations_count += 1
     return operations_count
-    
